@@ -1,12 +1,6 @@
-/**
- * @file
- *
- * This file contains the transport implementation.
- */
-
 #include "transport.h"
 
-namespace reaktor {
+namespace reaktion {
 
   Transport::Transport(void) {
     transportName = "<unknown>";

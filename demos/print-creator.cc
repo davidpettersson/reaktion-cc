@@ -1,13 +1,7 @@
-/**
- * @file
- *
- * This file contains the server creator implementation.
- */
-
 #include "print-creator.h"
 #include "print-protocol.h"
 
-namespace reaktor {
+namespace demos {
   
   PrintCreator::PrintCreator() {
   }

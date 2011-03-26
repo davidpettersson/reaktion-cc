@@ -1,5 +1,5 @@
-#ifndef REAKTOR_PROTOCOL_CREATOR_H
-#define REAKTOR_PROTOCOL_CREATOR_H
+#ifndef REAKTION_PROTOCOL_CREATOR_H
+#define REAKTION_PROTOCOL_CREATOR_H
 
 /**
  * @file
@@ -12,7 +12,7 @@
 #include "protocol.h"
 #include "transport.h"
 
-namespace reaktor {
+namespace reaktion {
 
   /**
    * Protocol creator interface. This interface is used to avoid

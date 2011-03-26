@@ -1,5 +1,5 @@
-#ifndef REAKTOR_NETWORK_REACTOR_H
-#define REAKTOR_NETWORK_REACTOR_H
+#ifndef REAKTION_NETWORK_REACTOR_H
+#define REAKTION_NETWORK_REACTOR_H
 
 /**
  * @file
@@ -20,7 +20,7 @@
 #include <iostream>
 #include <map>
 
-namespace reaktor {
+namespace reaktion {
 
   /**
    * Reacts to network events. This class reacts to different kinds of

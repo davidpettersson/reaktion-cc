@@ -1,5 +1,5 @@
-#ifndef REAKTOR_SOCKET_TRANSPORT_H
-#define REAKTOR_SOCKET_TRANSPORT_H
+#ifndef REAKTION_SOCKET_TRANSPORT_H
+#define REAKTION_SOCKET_TRANSPORT_H
 
 /**
  * @file
@@ -9,7 +9,7 @@
 
 #include "transport.h"
 
-namespace reaktor {
+namespace reaktion {
 
   /**
    * This class implements the socket transport.

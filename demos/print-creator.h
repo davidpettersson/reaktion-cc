@@ -1,17 +1,13 @@
-#ifndef REAKTOR_PRINT_CREATOR_H
-#define REAKTOR_PRINT_CREATOR_H
-
-/**
- * @file
- *
- * This file contains the print creator interface.
- */
+#ifndef DEMOS_PRINT_CREATOR_H
+#define DEMOS_PRINT_CREATOR_H
 
 #include "protocol-creator.h"
 #include "protocol.h"
 #include "transport.h"
 
-namespace reaktor {
+namespace demos {
+
+  using namespace reaktion;
 
   /**
    * Class for creating instances of the print protocol.

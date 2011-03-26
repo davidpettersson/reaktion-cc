@@ -1,5 +1,5 @@
-#ifndef REAKTOR_PROTOCOL_H
-#define REAKTOR_PROTOCOL_H
+#ifndef REAKTION_PROTOCOL_H
+#define REAKTION_PROTOCOL_H
 
 /**
  * @file
@@ -11,7 +11,7 @@
 
 #include "transport.h"
 
-namespace reaktor {
+namespace reaktion {
 
   /**
    * Base class for all protocols. Protocols are defined seperately

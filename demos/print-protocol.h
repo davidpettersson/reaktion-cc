@@ -1,5 +1,5 @@
-#ifndef REAKTOR_PRINT_PROTOCOL_H
-#define REAKTOR_PRINT_PROTOCOL_H
+#ifndef DEMOS_PRINT_PROTOCOL_H
+#define DEMOS_PRINT_PROTOCOL_H
 
 /**
  * @file
@@ -11,7 +11,9 @@
 
 #include "protocol.h"
 
-namespace reaktor {
+namespace demos {
+
+  using namespace reaktion;
 
   /**
    * Print protocol implementation.

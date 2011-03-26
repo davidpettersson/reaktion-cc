@@ -1,5 +1,5 @@
-#ifndef REAKTOR_TRANSPORT_H
-#define REAKTOR_TRANSPORT_H
+#ifndef REAKTION_TRANSPORT_H
+#define REAKTION_TRANSPORT_H
 
 /**
  * @file
@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include <string>
+
 #include <stdint.h>
 
 /**
@@ -16,7 +17,7 @@
  */
 #define TRANSPORT_PREFIX(tp) PREFIX << "[" << (tp)->getName() << "] "
 
-namespace reaktor {
+namespace reaktion {
 
   /**
    * Base class for all transport. A transport gives the owner of it

@@ -1,7 +1,7 @@
-libenv = Environment()
-reaktorlib = libenv.SharedLibrary('reaktor', Glob('reaktor/*.cc'))
+env = Environment()
+lib = env.SharedLibrary('reaktion', Glob('source/*.cc'))
 
-prgenv = Environment()
-prgenv.Append(CPPPATH = [ 'reaktor' ])
-prgenv.Append(LIBS = [ reaktorlib ])
-prgenv.Program("printproto", Glob('demos/*.cc'))
+env = Environment()
+env.Append(CPPPATH = [ 'source' ])
+env.Append(LIBS = [ lib ])
+env.Program("printproto", Glob('demos/*.cc'))

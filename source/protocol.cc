@@ -1,12 +1,6 @@
-/**
- * @file
- *
- * This file contains the protocol implementation.
- */
-
 #include "protocol.h"
 
-namespace reaktor {
+namespace reaktion {
 
   Protocol::Protocol(Transport* transport) {
     this->transport = transport;

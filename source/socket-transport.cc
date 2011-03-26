@@ -1,10 +1,5 @@
-/**
- * @file
- *
- * This file contains the socket transport implementation.
- */
-
 #include <cassert>
+
 #include <sys/socket.h>
 #include <sys/types.h>
 
@@ -12,7 +7,7 @@
 
 #define PREFIX "[SocketTransport] "
 
-namespace reaktor {
+namespace reaktion {
   
   SocketTransport::SocketTransport(int d) {
     descriptor = d;

@@ -1,18 +1,12 @@
-/**
- * @file
- *
- * This file contains the network reactor implementation.
- */
+#include <cassert>
+#include <sstream>
+#include <csignal>
 
 #include <arpa/inet.h>
 #include <netdb.h>
 #include <netinet/in.h>
 #include <sys/socket.h>
 #include <sys/types.h>
-
-#include <cassert>
-#include <sstream>
-#include <csignal>
 
 #include "network-reactor.h"
 
@@ -21,7 +15,7 @@
 
 #define MAX(x, y) (((x) > (y)) ? (x) : (y))
 
-namespace reaktor {
+namespace reaktion {
 
   NetworkReactor::NetworkReactor(void) {
     // Disable broken pipe signal
